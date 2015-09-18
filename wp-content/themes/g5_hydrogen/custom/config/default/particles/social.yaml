@@ -1,0 +1,8 @@
+enabled: '1'
+css:
+  class: social
+title: Facebook
+target: _blank
+items:
+  -
+    name: 'New item'
