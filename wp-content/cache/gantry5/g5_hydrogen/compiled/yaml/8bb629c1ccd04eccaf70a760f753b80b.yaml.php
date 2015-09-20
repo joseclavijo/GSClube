@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\xampp\\htdocs\\gsclube//wp-content/plugins/gantry5/engines/nucleus/particles/copyright.yaml',
-    'modified' => 1442615383,
+    'modified' => 1442692255,
     'data' => [
         'name' => 'Copyright',
         'description' => 'Display copyright information.',

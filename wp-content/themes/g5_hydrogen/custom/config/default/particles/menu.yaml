@@ -1,7 +1,7 @@
 enabled: '1'
+menu: home
 base: /
-menu: inicio
 startLevel: '1'
-maxLevels: '0'
-renderTitles: '0'
-mobileTarget: '0'
+maxLevels: '6'
+renderTitles: '1'
+mobileTarget: '1'

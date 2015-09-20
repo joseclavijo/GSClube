@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\xampp\\htdocs\\gsclube//wp-content/themes/g5_hydrogen/custom/config/default/styles.yaml',
-    'modified' => 1442615694,
+    'modified' => 1442711087,
     'data' => [
         'preset' => 'preset2',
         'header' => [

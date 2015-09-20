@@ -2,12 +2,12 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\xampp\\htdocs\\gsclube//wp-content/themes/g5_hydrogen/custom/config/default/particles/logo.yaml',
-    'modified' => 1442619385,
+    'modified' => 1442711699,
     'data' => [
         'enabled' => '1',
         'url' => '',
-        'image' => 'gantry-assets://images/gantry5-logo.png',
-        'text' => 'Gantry 5',
+        'image' => 'gantry-media://IMG-20150917-WA0010.png',
+        'text' => '',
         'class' => 'gantry-logo'
     ]
 ];

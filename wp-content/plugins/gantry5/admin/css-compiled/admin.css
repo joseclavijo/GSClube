@@ -283,6 +283,7 @@
 @media print { #g5-container .visible-print { display: inherit !important; }
   #g5-container .g-block.visible-print { display: block !important; }
   #g5-container .hidden-print { display: none !important; } }
+#g5-container .equal-height { display: -webkit-box; display: -moz-box; display: box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; }
 #g5-container #g-offcanvas { position: fixed; top: 0; left: 0; right: 0; bottom: 0; overflow-x: hidden; overflow-y: auto; text-align: left; display: none; -webkit-overflow-scrolling: touch; }
 #g5-container .g-offcanvas-toggle { display: block; position: absolute; top: 0.7rem; left: 0.7rem; z-index: 10; line-height: 1; cursor: pointer; }
 #g5-container .g-offcanvas-active { overflow-x: hidden; }
@@ -508,7 +509,7 @@ i.fa-grav, i.fa-grav-spaceman, i.fa-grav-text, i.fa-grav-full { font-family: 'gr
 #g5-container .settings-block .settings-param.input-hidden { display: none; }
 #g5-container .settings-block .settings-param:last-child { border-bottom: 0; }
 #g5-container .settings-block .settings-param .button.button-simple { background-color: #eee; color: #a2a2a2; padding: 6px 8px; }
-#g5-container .settings-block .settings-param .button.button-simple:hover { background-color: #d5d5d5; color: #6f6f6f; }
+#g5-container .settings-block .settings-param .button.button-simple:hover { background-color: #d4d4d4; color: #6e6e6e; }
 #g5-container .settings-block .g-instancepicker-title { margin-right: 0.5rem; font-style: italic; }
 #g5-container .settings-block .g-instancepicker-title:empty { margin: 0; }
 #g5-container .settings-block .input-small { width: 120px !important; }
@@ -526,7 +527,7 @@ i.fa-grav, i.fa-grav-spaceman, i.fa-grav-text, i.fa-grav-full { font-family: 'gr
 #g5-container .settings-block input, #g5-container .settings-block textarea, #g5-container .settings-block select { padding: 6px 12px; border: 1px solid #ddd; margin: 0; height: auto; max-width: 100%; font-size: 1rem; line-height: 1.5; border-radius: 0.1875rem; }
 #g5-container .settings-block input:focus, #g5-container .settings-block textarea:focus, #g5-container .settings-block select:focus { border-color: rgba(67, 154, 134, 0.5); }
 #g5-container .settings-block .colorpicker input:focus { border-color: #ddd; }
-#g5-container .settings-block select { margin: 0 0 10px; display: inline-block; height: 38px; }
+#g5-container .settings-block select { margin: 0; display: inline-block; height: 38px; }
 #g5-container .settings-block input:not(.settings-param-toggle):not([type="checkbox"]), #g5-container .settings-block select, #g5-container .settings-block .collection-list ul, #g5-container .settings-block .colorpicker, #g5-container .settings-block .multi.selectize-control { width: 250px; }
 @media only all and (max-width: 59.938rem) { #g5-container .settings-block input:not(.settings-param-toggle):not([type="checkbox"]), #g5-container .settings-block select, #g5-container .settings-block .collection-list ul, #g5-container .settings-block .colorpicker, #g5-container .settings-block .multi.selectize-control { width: 100%; } }
 #g5-container .settings-block textarea { width: 90%; min-height: 150px; }
@@ -696,7 +697,7 @@ i.fa-grav, i.fa-grav-spaceman, i.fa-grav-text, i.fa-grav-full { font-family: 'gr
 #g5-container .button-primary:hover, #g5-container .button-primary:focus { background: #377e6d; color: #fff; }
 #g5-container .button-secondary { background: #314C59; color: rgba(255, 255, 255, 0.9); }
 #g5-container .button-secondary:hover, #g5-container .button-secondary:focus { background: #23363f; color: #fff; }
-#g5-container .button.disabled, #g5-container .button[disabled] { background: #d7d7d7; color: #fff; cursor: default; }
+#g5-container .button.disabled, #g5-container .button[disabled] { background: #d6d6d6; color: #fff; cursor: default; }
 #g5-container .button.disabled:active, #g5-container .button[disabled]:active { margin: 0; }
 #g5-container .button.red { background: #ed5565; color: rgba(255, 255, 255, 0.9); }
 #g5-container .button.red:hover, #g5-container .button.red:focus { background: #e93044; color: #fff; }

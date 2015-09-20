@@ -1,8 +1,16 @@
 enabled: '1'
 css:
   class: social
-title: Facebook
+title: ''
 target: _blank
 items:
   -
+    icon: 'fa fa-facebook-square'
+    text: ''
+    link: 'https://www.facebook.com'
+    name: 'New item'
+  -
+    icon: 'fa fa-instagram'
+    text: ''
+    link: 'https://www.instagram.com'
     name: 'New item'

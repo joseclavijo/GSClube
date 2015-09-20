@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\xampp\\htdocs\\gsclube//wp-content/plugins/gantry5/engines/nucleus/particles/menu.yaml',
-    'modified' => 1442615383,
+    'modified' => 1442692255,
     'data' => [
         'name' => 'Menu',
         'description' => 'Gantry menu',
@@ -20,12 +20,6 @@ return [
                     'class' => 'alert alert-info',
                     'content' => 'GANTRY5_PARTICLE_MENU_INFO'
                 ],
-                'base' => [
-                    'type' => 'input.text',
-                    'label' => 'Base Path',
-                    'description' => 'Select the base path.',
-                    'default' => '/'
-                ],
                 'menu' => [
                     'type' => 'menu.list',
                     'label' => 'Menu',
@@ -35,7 +29,16 @@ return [
                         'allowEmptyOption' => true
                     ],
                     'options' => [
-                        '' => '- Select Menu -'
+                        '' => 'Use Default Menu'
+                    ]
+                ],
+                'base' => [
+                    'type' => 'menu.item',
+                    'label' => 'Base Item',
+                    'description' => 'Select a menu item to always be used as the base for the menu display.',
+                    'default' => '/',
+                    'options' => [
+                        '/' => '- Select -'
                     ]
                 ],
                 'startLevel' => [

@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledBlueprints',
-    'timestamp' => 1442615558,
-    'checksum' => 'fdfc95c4ef529000a5102dbf2b8616aa',
+    'timestamp' => 1442710219,
+    'checksum' => '36b91f6e4cc3cd18abc2c130a6373953',
     'files' => [
         'wp-content/themes/g5_hydrogen/particles' => [
             'particles/sample' => [
@@ -13,71 +13,71 @@ return [
         'wp-content/plugins/gantry5/engines/nucleus/particles' => [
             'particles/analytics' => [
                 'file' => 'wp-content/plugins/gantry5/engines/nucleus/particles/analytics.yaml',
-                'modified' => 1442615383
+                'modified' => 1442692255
             ],
             'particles/assets' => [
                 'file' => 'wp-content/plugins/gantry5/engines/nucleus/particles/assets.yaml',
-                'modified' => 1442615383
+                'modified' => 1442692255
             ],
             'particles/branding' => [
                 'file' => 'wp-content/plugins/gantry5/engines/nucleus/particles/branding.yaml',
-                'modified' => 1442615383
+                'modified' => 1442692255
             ],
             'particles/copyright' => [
                 'file' => 'wp-content/plugins/gantry5/engines/nucleus/particles/copyright.yaml',
-                'modified' => 1442615383
+                'modified' => 1442692255
             ],
             'particles/custom' => [
                 'file' => 'wp-content/plugins/gantry5/engines/nucleus/particles/custom.yaml',
-                'modified' => 1442615383
+                'modified' => 1442692255
             ],
             'particles/date' => [
                 'file' => 'wp-content/plugins/gantry5/engines/nucleus/particles/date.yaml',
-                'modified' => 1442615383
+                'modified' => 1442692255
             ],
             'particles/loginform' => [
                 'file' => 'wp-content/plugins/gantry5/engines/nucleus/particles/loginform.yaml',
-                'modified' => 1442615383
+                'modified' => 1442692255
             ],
             'particles/logo' => [
                 'file' => 'wp-content/plugins/gantry5/engines/nucleus/particles/logo.yaml',
-                'modified' => 1442615383
+                'modified' => 1442692255
             ],
             'particles/menu' => [
                 'file' => 'wp-content/plugins/gantry5/engines/nucleus/particles/menu.yaml',
-                'modified' => 1442615383
+                'modified' => 1442692255
             ],
             'particles/mobile-menu' => [
                 'file' => 'wp-content/plugins/gantry5/engines/nucleus/particles/mobile-menu.yaml',
-                'modified' => 1442615383
+                'modified' => 1442692255
             ],
             'particles/pagecontent' => [
                 'file' => 'wp-content/plugins/gantry5/engines/nucleus/particles/pagecontent.yaml',
-                'modified' => 1442615383
+                'modified' => 1442692255
             ],
             'particles/position' => [
                 'file' => 'wp-content/plugins/gantry5/engines/nucleus/particles/position.yaml',
-                'modified' => 1442615383
+                'modified' => 1442692255
             ],
             'particles/social' => [
                 'file' => 'wp-content/plugins/gantry5/engines/nucleus/particles/social.yaml',
-                'modified' => 1442615383
+                'modified' => 1442692255
             ],
             'particles/spacer' => [
                 'file' => 'wp-content/plugins/gantry5/engines/nucleus/particles/spacer.yaml',
-                'modified' => 1442615383
+                'modified' => 1442692255
             ],
             'particles/system-messages' => [
                 'file' => 'wp-content/plugins/gantry5/engines/nucleus/particles/system-messages.yaml',
-                'modified' => 1442615383
+                'modified' => 1442692255
             ],
             'particles/totop' => [
                 'file' => 'wp-content/plugins/gantry5/engines/nucleus/particles/totop.yaml',
-                'modified' => 1442615383
+                'modified' => 1442692255
             ],
             'particles/widget' => [
                 'file' => 'wp-content/plugins/gantry5/engines/nucleus/particles/widget.yaml',
-                'modified' => 1442615383
+                'modified' => 1442692256
             ]
         ],
         'wp-content/themes/g5_hydrogen/blueprints' => [
@@ -1779,13 +1779,6 @@ return [
                 'content' => 'GANTRY5_PARTICLE_MENU_INFO',
                 'name' => 'particles.menu._info'
             ],
-            'particles.menu.base' => [
-                'type' => 'input.text',
-                'label' => 'Base Path',
-                'description' => 'Select the base path.',
-                'default' => '/',
-                'name' => 'particles.menu.base'
-            ],
             'particles.menu.menu' => [
                 'type' => 'menu.list',
                 'label' => 'Menu',
@@ -1795,9 +1788,19 @@ return [
                     'allowEmptyOption' => true
                 ],
                 'options' => [
-                    '' => '- Select Menu -'
+                    '' => 'Use Default Menu'
                 ],
                 'name' => 'particles.menu.menu'
+            ],
+            'particles.menu.base' => [
+                'type' => 'menu.item',
+                'label' => 'Base Item',
+                'description' => 'Select a menu item to always be used as the base for the menu display.',
+                'default' => '/',
+                'options' => [
+                    '/' => '- Select -'
+                ],
+                'name' => 'particles.menu.base'
             ],
             'particles.menu.startLevel' => [
                 'type' => 'input.text',
@@ -2449,8 +2452,8 @@ return [
                 'menu' => [
                     'enabled' => 'particles.menu.enabled',
                     '_info' => 'particles.menu._info',
-                    'base' => 'particles.menu.base',
                     'menu' => 'particles.menu.menu',
+                    'base' => 'particles.menu.base',
                     'startLevel' => 'particles.menu.startLevel',
                     'maxLevels' => 'particles.menu.maxLevels',
                     'renderTitles' => 'particles.menu.renderTitles',

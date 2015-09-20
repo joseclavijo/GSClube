@@ -3,7 +3,7 @@
  * Plugin Name: Gantry 5 Framework
  * Plugin URI: http://gantry.org/
  * Description: Framework for Gantry 5 based themes.
- * Version: 5.1.3
+ * Version: 5.1.4
  * Author: RocketTheme, LLC
  * Author URI: http://rockettheme.com/
  * License: GNU General Public License v2 or later
@@ -51,11 +51,35 @@ function gantry5_plugin_defaults() {
         'debug'            => '0',
         'offline'          => '0',
         'offline_message'  => 'Site is currently in offline mode. Please try again later.',
+        'cache_path'       => '',
     );
 
     $option = (array) get_option( 'gantry5_plugin' );
 
     update_option( 'gantry5_plugin', $option + $defaults );
+}
+
+add_filter( 'kses_allowed_protocols', 'add_gantry5_streams_to_kses' );
+
+function add_gantry5_streams_to_kses( $protocols ) {
+    $streams = [
+        'gantry-cache',
+        'gantry-themes',
+        'gantry-theme',
+        'gantry-assets',
+        'gantry-media',
+        'gantry-engines',
+        'gantry-engine',
+        'gantry-layouts',
+        'gantry-particles',
+        'gantry-blueprints',
+        'gantry-config',
+        'wp-includes',
+        'wp-content',
+    ];
+
+    $protocols = array_merge( $protocols, $streams );
+    return $protocols;
 }
 
 // Initialize plugin language and fallback to en_US if the .mo file can't be found

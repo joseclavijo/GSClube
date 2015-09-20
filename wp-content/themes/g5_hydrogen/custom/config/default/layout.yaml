@@ -12,57 +12,80 @@ children:
       boxed: 0
     children:
       -
-        id: 69b4fa3b-e19b-df40-0df3-4e41b93636a4
+        id: 304d4a1c-a24d-4288-8d46-a347ff95d6e8
         type: grid
         subtype: false
         title: Untitled
         attributes: {  }
         children:
           -
-            id: ead316e4-4cc9-6ef5-f239-7ca7cceaba82
+            id: 4e8005d1-ae0d-4768-b7d0-2284aa532bf9
             type: block
             subtype: false
             title: Untitled
             attributes:
-              size: 33.3
+              size: 21
             children:
               -
-                id: 17326d10-d511-828f-6b34-fa6d751739e2
+                id: a00179fc-8391-44e6-ae1e-95de57dac087
                 type: particle
                 subtype: logo
                 title: Logo
-                attributes:
-                  enabled: 1
+                attributes: {  }
                 children: {  }
           -
-            id: 093b0242-57a9-4539-8106-6422329f06bc
+            id: 5ea96b10-deff-4eff-98d1-374200540fdc
             type: block
             subtype: false
             title: Untitled
             attributes:
-              size: 33.3
+              size: 59
             children:
               -
-                id: 798c593b-f277-4dd7-bc23-0f3dff207f29
+                id: e7b5c744-5787-4a82-8d7d-35ef85553f4e
                 type: particle
                 subtype: menu
                 title: Menu
                 attributes: {  }
                 children: {  }
           -
-            id: 6ff1633c-d949-4e6e-a50e-a2b77c5480fc
+            id: a12a8ce9-d4ea-45af-95b0-c403c6eb9f9a
             type: block
             subtype: false
             title: Untitled
             attributes:
-              size: 33.3
+              size: 20
             children:
               -
-                id: 362915c6-058f-4cb5-86ed-b76d6997b3f8
+                id: 5082997b-72da-4de2-b77a-8cfc0d0a6d55
                 type: particle
                 subtype: social
                 title: Social
                 attributes: {  }
+                children: {  }
+      -
+        id: d34ceac6-0608-4b3f-9004-91c5b341177b
+        type: grid
+        subtype: false
+        title: Untitled
+        attributes: {  }
+        children:
+          -
+            id: bfa0348f-2f02-4fed-a8b2-91a35c33f9b5
+            type: block
+            subtype: false
+            title: Untitled
+            attributes:
+              size: 100
+            children:
+              -
+                id: c760d9fb-74a3-4377-a85d-d8ea806bed73
+                type: position
+                subtype: widget
+                title: Widget
+                attributes:
+                  title: Widget
+                  key: widget
                 children: {  }
   -
     id: 5f0f5e5f-3394-5135-b874-349cfbed4fb9

@@ -473,6 +473,8 @@ button, input[type="submit"] { cursor: pointer; user-select: none; vertical-alig
 @media print { .visible-print { display: inherit !important; }
   .g-block.visible-print { display: block !important; }
   .hidden-print { display: none !important; } }
+.equal-height { display: -webkit-box; display: -moz-box; display: box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; }
+
 #g-offcanvas { position: fixed; top: 0; left: 0; right: 0; bottom: 0; overflow-x: hidden; overflow-y: auto; text-align: left; display: none; -webkit-overflow-scrolling: touch; }
 
 .g-offcanvas-toggle { display: block; position: absolute; top: 0.7rem; left: 0.7rem; z-index: 10; line-height: 1; cursor: pointer; }

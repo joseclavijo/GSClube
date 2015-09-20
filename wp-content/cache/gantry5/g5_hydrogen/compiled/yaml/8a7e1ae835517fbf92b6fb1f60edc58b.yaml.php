@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\xampp\\htdocs\\gsclube//wp-content/plugins/gantry5/engines/nucleus/particles/widget.yaml',
-    'modified' => 1442615383,
+    'modified' => 1442692256,
     'data' => [
         'name' => 'Widget',
         'description' => 'Display a single widget.',
